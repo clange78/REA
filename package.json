@@ -1,0 +1,13 @@
+{
+  "name": "outlier-search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Search short-form videos for creator-relative outliers.",
+  "type": "module",
+  "bin": { "outlier-search": "src/cli.js" },
+  "scripts": {
+    "search": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
